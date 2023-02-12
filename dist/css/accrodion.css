@@ -17,11 +17,15 @@
   margin: 20px auto;
 }
 .accrodion .tab {
-  border: 1px solid rgb(25, 45, 224);
+  border: 3px solid rgb(204, 59, 14);
+  border-bottom-width: 0;
+}
+.accrodion .tab:last-child {
+  border-bottom-width: 3px;
 }
 .accrodion .tab > label {
   display: flex;
-  background: rgb(5, 127, 143);
+  background: rgb(54, 73, 245);
   color: #fff;
   padding: 12px;
   font-weight: 700;
